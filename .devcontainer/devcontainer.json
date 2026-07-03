@@ -1,0 +1,1 @@
+{ "name": "Kali Linux Pentesting Lab", "image": "kalilinux/kali-rolling", "features": {}, "postCreateCommand": "apt update && apt install -y kali-linux-headless nmap curl wget git python3 python3-pip sqlmap gobuster ffuf nikto netcat-traditional dnsutils whois iputils-ping nano vim", "customizations": { "vscode": { "extensions": [ "ms-python.python" ] } }, "remoteUser": "root" }
